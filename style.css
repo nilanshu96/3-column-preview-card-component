@@ -9,8 +9,8 @@
     --very-light-gray: hsl(0, 0%, 95%); /* for headings, background, buttons */
 
     /* font families */
-    --font-lexend-deca: font-family: 'Lexend Deca', sans-serif;
-    --font-big-shoulders-display: font-family: 'Big Shoulders Display', cursive;
+    --font-lexend-deca: 'Lexend Deca', sans-serif;
+    --font-big-shoulders-display: 'Big Shoulders Display', cursive;
 }
 
 .cards_container {
@@ -21,8 +21,42 @@
 
 .card {
     flex: 0 1 100%;
-    padding: 2rem;
+    padding: 3rem;
+    font-family: var(--font-lexend-deca);
 }
+
+.card > p {
+    color: var(--transparent-white);
+    line-height: 1.7;
+}
+
+.card > h1 {
+    font-family: var(--font-big-shoulders-display);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.card > button {
+    margin-top: 5rem;
+    font:inherit;
+    background-color: var(--very-light-gray);
+    border: solid var(--very-light-gray);
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
+}
+
+.sedan-card > button {
+    color: var(--bright-orange);
+}
+
+.suv-card > button {
+    color: var(--dark-cyan);
+}
+
+.luxury-card > button {
+    color: var(--very-dark-cyan);
+}
+
 
 .sedan-card {
     background-color: var(--bright-orange);
