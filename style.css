@@ -17,6 +17,8 @@
     display: flex;
     color: var(--very-light-gray);
     max-width: 60rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .card {
@@ -45,6 +47,11 @@
     padding: 0.8rem 2rem;
 }
 
+.card > button:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+}
+
 .sedan-card > button {
     color: var(--bright-orange);
 }
@@ -56,7 +63,6 @@
 .luxury-card > button {
     color: var(--very-dark-cyan);
 }
-
 
 .sedan-card {
     background-color: var(--bright-orange);
