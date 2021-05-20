@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    min-height: 100vh;
+}
+
+* {  
+    box-sizing: border-box;
+}
+
+.attribution {
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+}

@@ -12,3 +12,28 @@
     --font-lexend-deca: font-family: 'Lexend Deca', sans-serif;
     --font-big-shoulders-display: font-family: 'Big Shoulders Display', cursive;
 }
+
+.cards_container {
+    display: flex;
+    color: var(--very-light-gray);
+    max-width: 60rem;
+}
+
+.card {
+    flex: 0 1 100%;
+    padding: 2rem;
+}
+
+.sedan-card {
+    background-color: var(--bright-orange);
+}
+
+.suv-card {
+    background-color: var(--dark-cyan);
+}
+
+.luxury-card {
+    background-color: var(--very-dark-cyan);
+}
+
+
