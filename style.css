@@ -35,7 +35,7 @@
 .card > h1 {
     font-family: var(--font-big-shoulders-display);
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.7rem;
 }
 
 .card > button {
@@ -76,4 +76,14 @@
     background-color: var(--very-dark-cyan);
 }
 
+@media screen and (max-width: 920px) {
+    .cards_container {
+        flex-direction: column;
+        max-width: 21rem;
+        margin: 2rem 0rem;
+    }
 
+    .card > button {
+        margin-top: 1rem;
+    }
+}

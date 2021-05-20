@@ -10,15 +10,8 @@ html, body {
 }
 
 main {
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.attribution {
-    position: absolute;
-    right: 0;
-    bottom: 1rem;
-    left: 0;
 }
