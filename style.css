@@ -40,6 +40,8 @@
 
 .card > button {
     margin-top: 5rem;
+    mix-blend-mode: screen;
+    color: black;
     font:inherit;
     background-color: var(--very-light-gray);
     border: solid var(--very-light-gray);
@@ -52,7 +54,8 @@
     color: var(--very-light-gray);
 }
 
-.sedan-card > button {
+/* use the below if mix-blend-mode is not supported */
+/* .sedan-card > button {
     color: var(--bright-orange);
 }
 
@@ -62,7 +65,7 @@
 
 .luxury-card > button {
     color: var(--very-dark-cyan);
-}
+} */
 
 .sedan-card {
     background-color: var(--bright-orange);
